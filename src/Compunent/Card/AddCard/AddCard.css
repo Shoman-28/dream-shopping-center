@@ -1,0 +1,18 @@
+#AddCard{
+    top: 15vh;
+    position: fixed;
+
+}
+.line{
+    width: 100%;
+    height: 5px;
+    background-color: black;
+}
+.subtotal{
+    font-size: 25px;
+    font-weight: 400;
+}
+.sub-Amount{
+    font-size: 25px;
+    font-weight: 600;
+}

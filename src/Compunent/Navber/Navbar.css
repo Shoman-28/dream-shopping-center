@@ -1,0 +1,99 @@
+.header{
+    width: 90%;
+    margin: auto;
+}
+.headerText-size{
+    font-size: 20px;
+    color: #1b201e !important;
+}
+.header-item {
+  /* text-align: right; */
+}
+.search {
+  /* margin: 20px 7px;
+  width: 20px;
+  height: 20px;
+  color: #635d5d; */
+}
+
+.navBer li {
+  list-style: none;
+  margin: 20px 10px;
+  text-align: center;
+}
+
+.navBer li a {
+  text-decoration: none;
+  color: #1b201e;
+}
+
+.navBer li a .navIcon {
+  color: #635d5d;
+  height: 20px;
+  width: 20px;
+}
+
+.userName {
+  font-size: 20px;
+}
+
+.showNavBar {
+  right: 0px !important;
+}
+
+#cart-Toggle-btn {
+  font-size: 22px;
+  color: #fff;
+  font-weight: 600;
+  /* position: fixed; */
+}
+
+.cart-Toggle {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  background-color: black;
+  border-radius: 100px;
+  z-index: 3;
+  cursor: pointer;
+  display: block;
+}
+
+#sideNav {
+  width: 500px;
+  height: 100vh;
+  right: -3050px;
+  top: 0px;
+  position: fixed;
+  z-index: 1;
+  background-color: #fff;
+  transition: 0.8s;
+  
+}
+
+
+@media (max-width: 991px) {
+  /* .wishlist .compare .userName {
+    display: none;
+  } */
+}
+
+@media (max-width: 767.98px) {
+  .wishlist,
+  .compare,
+  .userName {
+    display: none !important;
+  }
+
+}
+@media (max-width: 666.98px ) {
+
+
+
+}
+
+@media (min-width: 767.99px) {
+  #sideNav {
+    width: 500px;
+  }
+}
