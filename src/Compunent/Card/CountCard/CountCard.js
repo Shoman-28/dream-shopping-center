@@ -6,14 +6,14 @@ const CountCard = () => {
   return (
     <div id="countCard">
       <div className="row">
-        <div className="col-sm-3 col-md-3">
+        <div className="col-3">
           <div className="count-cart-img">
             <img src={Chear1} alt="" />
           </div>
         </div>
 
-        <div className="col-sm-9 col-md-9">
-          <div className="d-flex justify-content-between">
+        <div className="col-9">
+          <div className="d-flex justify-content-between cart-details-flex">
             <div className="count-cart-details">
               <p className="product-name">Elephant-Wood</p>
               <small className="plus-icon">-</small>
