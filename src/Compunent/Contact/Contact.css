@@ -1,0 +1,60 @@
+#contact-homePage {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+.contact-image {
+  background: url(../image/product/chear/Visit-us.jpg) no-repeat;
+  background-size: cover;
+  width: 50%;
+  height: 450px;
+  padding: 10px;
+  overflow: hidden;
+}
+.contact-image-Instagram {
+  background: url(../image/product/chear/Follow\ Store.jpg) no-repeat;
+  background-size: cover;
+  width: 50%;
+  height: 450px;
+  padding: 10px;
+  overflow: hidden;
+}
+.contact-image h2,
+.contact-image-Instagram h2 {
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+.contact-image p {
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.contact-image small,
+.contact-image-Instagram small {
+  font-size: 18px;
+  font-weight: 700;
+  border-bottom: 3px solid rgb(90, 89, 89);
+  margin-top: 35px;
+}
+.contact-image small:hover {
+  border-bottom: none;
+  cursor: pointer;
+}
+.contact-text {
+  width: 82%;
+
+  margin: auto;
+}
+@media (max-width: 767.99px) {
+  #contact-homePage {
+    flex-direction: column;
+  }
+  .contact-image {
+    width: 100%;
+    padding: 10px;
+  }
+  .contact-image-Instagram {
+    width: 100%;
+    padding: 10px;
+  }
+}
