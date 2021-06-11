@@ -1,0 +1,56 @@
+.About-us,
+.social-icon {
+  padding: 4px 28px;
+}
+.About-us h1 {
+  font-size: 30px;
+  text-align: left;
+  border-left: 3px solid #0de851;
+  padding: 0px 3px;
+}
+.About-us h3 {
+  text-align: left;
+  padding: 3px;
+  font-size: 18px;
+}
+.social-icon{
+    text-align: end;
+    
+    padding: 0px 3px;
+    font-size: 30px;
+}
+.social-icon h1 {
+  
+ 
+  
+}
+.social-icon i {
+  top: 10px;
+  padding: 3px 10px;
+  font-size: 20px;
+  position: relative;
+}
+.social-icon i:first-child {
+  padding-left: 5px;
+}
+.social-icon i:hover {
+  color: #95d7f5;
+  transition: 0.7se;
+}
+
+.scroll {
+  position: fixed;
+  right: 20px;
+  bottom: 50px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #ada4797d;
+  box-shadow: 0 10px 10px #6b575733;
+  outline: none;
+  cursor: pointer;
+}
+.scroll i {
+  font-size: 35px;
+  color: #ffaa0f;
+}

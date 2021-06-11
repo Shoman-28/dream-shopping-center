@@ -15,7 +15,7 @@ const FooterBottom = () => {
         <div className="footerBottom-size">
           <div className="footer-bottom-card">
             <div>
-              <small> ©2021. All rights reserved. Shoman, Kishoreganj. </small>
+              <small> Copyright &copy; 2021 Shoman, Kishoreganj. </small>
             </div>
             <div>
               <small>shoman</small>
